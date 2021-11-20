@@ -1,4 +1,3 @@
-<code>
 class Solution {
     public int minMoves(int[] nums) {
         int floor = nums[0];
@@ -16,4 +15,3 @@ class Solution {
         return (int) (relativeSum - nums.length * floor);
     }
 }
-</code>
